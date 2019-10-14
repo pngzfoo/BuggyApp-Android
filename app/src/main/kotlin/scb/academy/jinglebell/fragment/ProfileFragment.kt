@@ -20,7 +20,6 @@ class ProfileFragment : Fragment() {
         textView2.visibility = View.GONE
         super.onViewCreated(view, savedInstanceState)
         onEnter()
-
     }
 
     private fun onEnter(){
@@ -35,6 +34,4 @@ class ProfileFragment : Fragment() {
             false
         })
     }
-
-
 }
